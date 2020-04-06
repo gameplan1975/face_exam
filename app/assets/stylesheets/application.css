@@ -2,13 +2,17 @@ header{
     background-color: #385898;
     height:50px;
     width:100%;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color:white;
 }
 .header-logo{
     float: left;
     color:white;
     padding-left: 20px;
     font-size: 36px;
-    margin-top: -30px;
     font-style: bold;
 
 }
@@ -29,6 +33,5 @@ body{
     background-color:#E9EBEE;
 }
 .main-top{
-    
     margin: 10px;
 }
