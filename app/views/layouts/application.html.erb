@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Facelook</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+  <body>
+    <header>
+    <div class ="header-logo"><p>Facelook</p></div>
+    <ul class ="header-menus">
+      <li>ユーザーネーム</li>
+      <li>新規登録</li>
+      <li>投稿一覧</li>
+      <li>Log in</li>
+      <li>log out</li>
+    </ul>
+  </header>
+    <%= yield %>
+  </body>
+</html>
